@@ -11,6 +11,11 @@ v0.0.2 - 26/03/2025
 * Página inicial atualizada, com barra escura e desktop primitivo;
 * Mudança na estrutura de CSS
 
+v0.0.3 - 27/03/2025
+* Media Query atualizado;
+* Banner adicionado na página inicial;
+* Device Breakpoints atualizados
+
 TODO:
 * Versões desktop - finalizar
 * Páginas específicas
