@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 600px){
+ #navbar{
+    visibility: hidden; 
+    opacity: 0; 
+    display: none; 
+    transition: 1s;
+ }  
+ .menuitem{
+    display: block;
+ }
+ #menubar{
+    width: 100%;
+ }
+ 
+}
+
+@media only screen and (min-width: 600px){
+
+    #navbar{
+        visibility: visible;
+        opacity: 1;
+        display: table;
+        transition: 1s;
+    }
+    #menubar{
+        width: 100%;
+        display: inline-table;
+        color: white;
+    }
+    #menubar a{
+        color: white;
+    }
+    li{
+        border: transparent;
+    }
+    #menu_shower{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

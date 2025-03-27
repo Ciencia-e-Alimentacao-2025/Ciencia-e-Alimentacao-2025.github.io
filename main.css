@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px){
+    .caller_img{
+        width: 70vw;
+    }
+    span:hover .caller_img{
+        transition: .5s;
+        width: 75vw;
+      }
+}
+@media only screen and (min-width: 600px) {
+    main{
+      transition: .5s;
+      width: 550px;
+      margin: auto;
+    }
+    .caller_img{
+        width: 400px;
+    }
+    span:hover .caller_img{
+        width: 440px;
+        transition: .5s;
+    }
+  }
+

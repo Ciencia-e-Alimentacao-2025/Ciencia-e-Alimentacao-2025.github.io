@@ -1,3 +1,18 @@
+function loaded(){
+    var width = window.innerWidth;
+    if (width < 600){
+        var menu = document.getElementById("navbar");
+        menu.style.visibility = "hidden";
+        menu.style.opacity = "0";
+        menu.style.display = "none";
+    } else{
+        var menu = document.getElementById("navbar");
+        menu.style.visibility = "visible";
+        menu.style.opacity = "1";
+        menu.style.display = "block";
+    }
+}
+
 function showMenu() {
     var menu = document.getElementById("navbar")
     if (menu.style.visibility === "hidden"){
