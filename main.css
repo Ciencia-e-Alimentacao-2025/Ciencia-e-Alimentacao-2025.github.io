@@ -1,4 +1,27 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 320px){
+    .caller_img{
+        width: 80vw;
+    }
+
+    .banner p{
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 321px) {
+    .caller_img{
+        width: 80vw;
+    }
+    .banner p{
+        margin-top: 170px;
+    }
+}
+
+@media only screen and (min-width:375px){
+    .banner p{
+        margin-top: 170px;
+    }
+
     .caller_img{
         width: 70vw;
     }
@@ -7,18 +30,34 @@
         width: 75vw;
       }
 }
-@media only screen and (min-width: 600px) {
-    main{
-      transition: .5s;
-      width: 550px;
-      margin: auto;
-    }
-    .caller_img{
-        width: 400px;
-    }
-    span:hover .caller_img{
-        width: 440px;
-        transition: .5s;
-    }
-  }
 
+@media only screen and (min-width: 425px){
+    .banner p{
+        margin-top: 28vh;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .banner p{
+        margin-top: 32vh;
+    }
+    main{
+        transition: .5s;
+        width: 550px;
+        margin: auto;
+      }
+      .caller_img{
+          width: 400px;
+      }
+      span:hover .caller_img{
+          width: 440px;
+          transition: .5s;
+      }
+    }
+
+
+@media only screen and (min-width: 1024px){
+    .banner p{
+        margin-top: 250px;
+    }
+}

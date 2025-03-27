@@ -75,6 +75,7 @@ html{
 }
 
 body{
+    min-width: 320px;
     padding: 0px;
     margin: 0px;
 }
@@ -160,6 +161,23 @@ span{
 
 }
 
+.banner{
+  margin-top: 0px;
+  padding-top: 0px;
+  background:linear-gradient(to bottom, rgba(0,0,0, 0), black), url(assets/pexels-pixabay-355465.jpg) no-repeat bottom;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.banner p{
+  height: 300px;
+  display: inline-block;
+  vertical-align: bottom;
+  color: white;
+}
+
 span.content > .caller_img{
   display: block;
   margin: auto;
@@ -182,8 +200,6 @@ span.content:hover{
   background-color: rgb(31, 31, 31);
   cursor: pointer;
 }
-
-
 
 footer{
   margin-top: 30px;

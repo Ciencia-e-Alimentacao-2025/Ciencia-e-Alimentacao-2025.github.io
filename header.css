@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 599px){
  #navbar{
     visibility: hidden; 
     opacity: 0; 
