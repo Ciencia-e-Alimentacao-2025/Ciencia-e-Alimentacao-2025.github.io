@@ -11,55 +11,7 @@
     <script src="main.js"></script>
 </head>
 <body onload="loaded()" onresize="loaded()">
-    <header>
-        
-        <table>
-            <tr>
-                
-                <td class="title">
-                    <button onclick="showMenu()" id="menu_shower">
-                        <span class="material-symbols-outlined" id="menu">menu</span>
-                    </button>
-                </td>
-                <td class="title">
-                    <h1 id="page-title" class="lato-light">
-                        <a href="./">Projeto Chás</a>
-                    </h1>
-                </td>
-                <td class="title">
-                    <div id="blank0">
-
-                    </div>
-                </td>
-            </tr>
-        </table>
-        
-        <nav id="navbar" class="lato-regular" >
-            <table id="menubar">
-
-                <td class="menuitem">
-                    <li>
-                        <a href="./">Início</a>
-                    </li>
-                </td>
-                <td class="menuitem">
-                    <li>
-                        Item 2
-                    </li>
-                </td>
-                <td class="menuitem">
-                    <li>
-                        Item 3
-                    </li>
-                </td>
-                <td class="menuitem">
-                    <li>
-                        Item 4
-                    </li>
-                </td>
-            </table>
-        </nav>
-    </header>
+    <iframe src="../header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     <span class="banner">
         
         <p class="lato-black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, doloribus delectus. Quas totam autem nemo perferendis officiis quidem harum, expedita, unde optio asperiores reiciendis alias doloremque veniam sequi voluptatibus est.</p>

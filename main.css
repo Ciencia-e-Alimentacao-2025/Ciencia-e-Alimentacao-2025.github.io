@@ -13,13 +13,13 @@
         width: 80vw;
     }
     .banner p{
-        margin-top: 170px;
+        margin-top: 30vh;
     }
 }
 
 @media only screen and (min-width:375px){
     .banner p{
-        margin-top: 170px;
+        margin-top: 33vh;
     }
 
     .caller_img{
@@ -33,13 +33,13 @@
 
 @media only screen and (min-width: 425px){
     .banner p{
-        margin-top: 28vh;
+        margin-top: 37vh;
     }
 }
 
 @media only screen and (min-width: 768px){
     .banner p{
-        margin-top: 32vh;
+        margin-top: 43vh;
     }
     main{
         transition: .5s;
@@ -58,6 +58,24 @@
 
 @media only screen and (min-width: 1024px){
     .banner p{
-        margin-top: 250px;
+        margin-top: 40vh;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .banner p{
+        margin-top: 28vh;
+    }
+}
+
+@media only screen and (min-width: 2160px){
+    .banner p{
+        margin-top: 20vh;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .banner p{
+        margin-top: 18vh;
     }
 }

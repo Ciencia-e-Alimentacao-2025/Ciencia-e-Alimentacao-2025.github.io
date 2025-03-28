@@ -80,74 +80,8 @@ body{
     margin: 0px;
 }
 
-header{
-  background-color: black;
-  color: white;
-}
+/*Elements*/
 
-header a{
-  color: white;
-}
-
-#menu{
-    width: 40px;
-    padding: 10px;
-    padding-right: 0px;
-    font-size: 25px;
-}
-
-#page-title{
-  text-align: center;
-  position: static;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-.title{
-  padding-top: 10px;
-  position: relative;
-  width: 100vw;
-}
-
-#blank0{
-  width: 50px;
-}
-
-button{
-  border: transparent;
-  background-color: rgb(0, 0, 0);
-  cursor: pointer;
-  color: white;
-}
-
-#navbar{
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  
-}
-
-li{
-    list-style: none;
-    padding: 10px 0px 10px 0px;
-    margin: 0px;
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
-td.menuitem:hover{
-  transition: .5s;
-  background-color: gray;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: large;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
 
 main{
   display: block;

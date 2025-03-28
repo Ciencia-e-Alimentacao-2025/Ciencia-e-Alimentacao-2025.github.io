@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Post - Projeto Chás</title>
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <script src="../main.js"></script>
+</head>
+<body onload="loaded()" onresize="loaded()">
+    <iframe src="../header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    <h1 id="post_title">
+        Title
+    </h1>
+</body>
+</html>
