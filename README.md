@@ -16,6 +16,11 @@ v0.0.3 - 27/03/2025
 * Banner adicionado na página inicial;
 * Device Breakpoints atualizados
 
+v0.0.4 - 27/03/2025
+* Estrutura de arquivos atualizada;
+* Device Breakpoints atualizados;
+* Versão inicial de modelo para postagens
+
 TODO:
 * Versões desktop - finalizar
 * Páginas específicas
