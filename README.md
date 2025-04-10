@@ -21,6 +21,11 @@ v0.0.4 - 27/03/2025
 * Device Breakpoints atualizados;
 * Versão inicial de modelo para postagens
 
+v0.0.5 - 09/04/2025
+* Cabeçalhos e rodapés atualizados;
+* Modelo de postagens atualizado;
+* Versões desktop atualizadas
+
 TODO:
 * Versões desktop - finalizar
 * Páginas específicas
