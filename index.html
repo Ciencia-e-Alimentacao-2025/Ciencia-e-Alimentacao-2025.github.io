@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - Projeto Chás</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/header.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <script src="main.js"></script>
 </head>
 <body onload="loaded()" onresize="loaded()">
-    <iframe src="../header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-    <span class="banner">
+    <iframe src="/header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    <span class="banner" id="banner_home">
         
         <p class="lato-black">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, doloribus delectus. Quas totam autem nemo perferendis officiis quidem harum, expedita, unde optio asperiores reiciendis alias doloremque veniam sequi voluptatibus est.</p>
     </span>
@@ -46,28 +47,6 @@
             </p>
         </span>
     </main>
-    <footer>
-        <p class="lato.light">
-            Site feito por Vini Moraes
-        </p>
-        <p>
-            <a href="https://github.com/vinis-moraes" class="social" target="_blank">
-                <img src="assets/github-mark-white.svg" alt="GitHub Logo" id="github_logo" class="social_logo">
-                @vinis-moraes
-            </a>
-        </p>
-        <p>
-            <a href="https://instagram.com/vinis_moraes_" class="social" target="_blank">
-                <img src="assets/Instagram_Glyph_White.svg" alt="Instagram Logo" id="instagram_logo" class="social_logo">
-                @vinis_moraes_
-            </a>
-        </p>
-        <p>
-            <a href="https://x.com/vinis_moraes__" class="social" target="_blank">
-                <img src="assets/logo.svg" alt="X.Com Logo" id="Twitter Logo" class="social_logo">
-                @vinis_moraes__
-            </a>
-        </p>
-    </footer>
+    <iframe src="/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 </body>
 </html>

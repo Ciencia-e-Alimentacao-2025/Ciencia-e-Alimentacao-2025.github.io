@@ -1,10 +1,8 @@
+@charset "UTF-8";
+
 @media only screen and (max-width: 320px){
     .caller_img{
         width: 80vw;
-    }
-
-    .banner p{
-        margin-top: 150px;
     }
 }
 
@@ -12,15 +10,9 @@
     .caller_img{
         width: 80vw;
     }
-    .banner p{
-        margin-top: 30vh;
-    }
 }
 
 @media only screen and (min-width:375px){
-    .banner p{
-        margin-top: 33vh;
-    }
 
     .caller_img{
         width: 70vw;
@@ -33,14 +25,11 @@
 
 @media only screen and (min-width: 425px){
     .banner p{
-        margin-top: 37vh;
+        font-size: 17px;
     }
 }
 
 @media only screen and (min-width: 768px){
-    .banner p{
-        margin-top: 43vh;
-    }
     main{
         transition: .5s;
         width: 550px;
@@ -53,29 +42,25 @@
           width: 440px;
           transition: .5s;
       }
-    }
-
+      .banner p{
+        font-size: 20px;
+      }
+}
 
 @media only screen and (min-width: 1024px){
-    .banner p{
-        margin-top: 40vh;
-    }
+   .banner p{
+    font-size: 2vw;
+   } 
 }
 
 @media only screen and (min-width: 1440px){
-    .banner p{
-        margin-top: 28vh;
-    }
+    
 }
 
 @media only screen and (min-width: 2160px){
-    .banner p{
-        margin-top: 20vh;
-    }
+    
 }
 
 @media only screen and (min-width: 2560px) {
-    .banner p{
-        margin-top: 18vh;
-    }
+    
 }
