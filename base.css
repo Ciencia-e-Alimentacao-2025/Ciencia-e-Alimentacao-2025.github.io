@@ -89,6 +89,7 @@ body{
 main{
   display: block;
   margin: auto;
+  padding: 10px;
 }
 
 span{
@@ -101,7 +102,7 @@ span{
 .banner{
   margin-top: 0px;
   padding-top: 0px;
-  background:linear-gradient(to bottom, rgba(0,0,0, 0), black), url(assets/pexels-pixabay-355465.jpg) no-repeat bottom;
+  background:linear-gradient(to bottom, rgba(0,0,0, 0), black), url(assets/pexels-mareefe-1638280.jpg) no-repeat center;
   background-size: cover;
   display: block;
   width: 100%;
@@ -121,7 +122,14 @@ span{
   padding-top: 200px;
 }
 
+span.content{
+  margin: 10px;
+}
+
 span.content > .caller_img{
+  border-radius: 30px;
+  height: 400px;
+  object-fit: cover;
   display: block;
   margin: auto;
   padding-bottom: 0px;
