@@ -33,6 +33,9 @@ v0.1.0 - 12/04/2025
 * Imagens adicionadas;
 * Versões para diferentes tamanhos atualizadas
 
+v0.1.1 - 12/04/2025
+* Upload para organização
+
 TODO:
 * Páginas específicas (finalizar)
 * Conteúdo
