@@ -30,7 +30,7 @@ v0.1.0 - 12/04/2025
 * Cabeçalho com menu agora são permanentes;
 * Menu atualizado para as categorias de páginas;
 * Páginas de categorias adicionadas;
-* Imagens adicionadas
+* Imagens adicionadas;
 * Versões para diferentes tamanhos atualizadas
 
 TODO:
