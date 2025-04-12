@@ -26,9 +26,15 @@ v0.0.5 - 09/04/2025
 * Modelo de postagens atualizado;
 * Versões desktop atualizadas
 
+v0.1.0 - 12/04/2025 
+* Cabeçalho com menu agora são permanentes;
+* Menu atualizado para as categorias de páginas;
+* Páginas de categorias adicionadas;
+* Imagens adicionadas
+* Versões para diferentes tamanhos atualizadas
+
 TODO:
-* Versões desktop - finalizar
-* Páginas específicas
+* Páginas específicas (finalizar)
 * Conteúdo
 * Tema escuro???
 * Tradução em inglês???
