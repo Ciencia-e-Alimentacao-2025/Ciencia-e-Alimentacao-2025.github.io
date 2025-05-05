@@ -36,6 +36,10 @@ v0.1.0 - 12/04/2025
 v0.1.1 - 12/04/2025
 * Upload para organização
 
+v0.2 - 04/05/2025
+* Finalização da versão desktop
+* Atualização do rodapé
+
 TODO:
 * Páginas específicas (finalizar)
 * Conteúdo
