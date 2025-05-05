@@ -49,6 +49,11 @@ v0.3.5 - 04/05/2025
 * Cabeçalho atualizado
 * Correção de problemas nos estilos para diferentes tamanhos
 
+v0.3.9 - 05/05/2025
+* Título atualizado
+* Favicon adicionado
+* Tamanho das imagens reduzidas
+
 TODO:
 * Páginas específicas (finalizar)
 * Conteúdo
