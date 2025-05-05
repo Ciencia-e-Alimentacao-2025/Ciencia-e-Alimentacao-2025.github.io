@@ -83,6 +83,16 @@ body{
   margin: 0px;
 }
 
+@media (prefers-color-scheme: dark){
+  html{
+    background-color: rgb(22, 22, 22);
+    color: white;
+  }
+  .content{
+    color: white;
+  }
+}
+
 /*Elements*/
 
 

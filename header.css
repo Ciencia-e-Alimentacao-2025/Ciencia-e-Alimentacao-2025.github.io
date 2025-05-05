@@ -48,13 +48,18 @@ button{
   
 li{
   list-style: none;
-  padding: 10px 0px 10px 0px;
   margin: 0px;
   display: block;
   margin: auto;
   text-align: center;
+  padding: 10px;
 }
   
+td{
+  width: 25%;
+  vertical-align: middle;
+}
+
 td.menuitem:hover{
   transition: .5s;
   background-color: gray;

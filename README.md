@@ -40,8 +40,11 @@ v0.2 - 04/05/2025
 * Finalização da versão desktop
 * Atualização do rodapé
 
+v0.3 - 04/05/2025
+* Tema escuro adicionado
+* Cabeçalho atualizado
+
 TODO:
 * Páginas específicas (finalizar)
 * Conteúdo
-* Tema escuro???
 * Tradução em inglês???
