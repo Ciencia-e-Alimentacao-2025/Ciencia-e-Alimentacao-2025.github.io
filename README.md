@@ -44,6 +44,11 @@ v0.3 - 04/05/2025
 * Tema escuro adicionado
 * Cabeçalho atualizado
 
+v0.3.5 - 04/05/2025
+* CSS atualizado
+* Cabeçalho atualizado
+* Correção de problemas nos estilos para diferentes tamanhos
+
 TODO:
 * Páginas específicas (finalizar)
 * Conteúdo

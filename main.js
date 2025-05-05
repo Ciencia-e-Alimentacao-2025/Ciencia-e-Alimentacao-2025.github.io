@@ -1,6 +1,6 @@
 function loaded(){
     var width = window.innerWidth;
-    if ((width - 15) < 600){
+    if ((width) < 600){
         var menu = document.getElementById("navbar");
         menu.style.visibility = "hidden";
         menu.style.opacity = "0";

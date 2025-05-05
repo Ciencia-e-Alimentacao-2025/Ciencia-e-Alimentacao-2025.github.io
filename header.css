@@ -55,10 +55,6 @@ li{
   padding: 10px;
 }
   
-td{
-  width: 25%;
-  vertical-align: middle;
-}
 
 td.menuitem:hover{
   transition: .5s;
@@ -133,6 +129,9 @@ header{
   }
   li{
     border: transparent;
+  }
+  td{
+    width: 25%;
   }
   #menu_shower{
     visibility: hidden;

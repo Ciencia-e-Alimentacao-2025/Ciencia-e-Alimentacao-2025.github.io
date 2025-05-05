@@ -46,15 +46,15 @@
       .banner p{
         font-size: 20px;
       }
-      a.internal{
-        display: inline-block;
-        width: 33%;
-      }
-      a.internal p{
-        height: 200px;
-      }
+      
       .content{
         display: inline;
+        margin: auto;      
+    }
+
+      a.internal p{
+        width: 60vw;
+        margin: auto;
       }
 }
 
@@ -64,8 +64,16 @@
    } 
 }
 
-@media only screen and (min-width: 1440px){
-    
+@media only screen and (min-width: 1600px){
+    a.internal{
+        display: inline-block;
+        width: 33%;
+      }
+      a.internal p{
+        height: 200px;
+        margin: 0px;
+        width: unset;
+      }
 }
 
 @media only screen and (min-width: 2160px){
