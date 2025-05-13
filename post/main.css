@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#first_image{
+.first_image{
     background: linear-gradient(to bottom, rgba(0,0,0, 0), black), url(/assets/pexels-pixabay-355465.jpg) no-repeat bottom;
     background-size: cover;
     width: 100%;
@@ -8,23 +8,36 @@
     height: 300px;
     left: 0px;
     padding-top: 0px;
+    margin-top: 110px;
 }
 
-#first_image p{
+.first_image p{
     text-align: center;
     margin: auto;
     display: block;
 }
 
-#first_image h1{
+.first_image h1{
     padding-top: 50px;
     text-align: center;
     vertical-align: middle;
     margin-top: 0px;
 }
 
-#first_image h2{
+.first_image h2{
     text-align: center;
     padding-top: 50px;
 
+}
+
+h2.lato-light{
+    font-style: italic;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.content{
+    text-align: start;
 }
