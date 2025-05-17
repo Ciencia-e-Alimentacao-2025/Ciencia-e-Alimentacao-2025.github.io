@@ -54,7 +54,10 @@ v0.3.9 - 05/05/2025
 * Favicon adicionado
 * Tamanho das imagens reduzidas
 
+v0.8.9 - 16/5/2025
+* Conteúdo adicionado
+
 TODO:
-* Páginas específicas (finalizar)
-* Conteúdo
+
 * Tradução em inglês???
+* Revisar cabeçalho
