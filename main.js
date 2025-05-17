@@ -9,7 +9,7 @@ function loaded(){
         var menu = document.getElementById("navbar");
         menu.style.visibility = "visible";
         menu.style.opacity = "1";
-        menu.style.display = "block";
+        menu.style.display = "flex";
     }
 }
 
@@ -17,7 +17,7 @@ function showMenu() {
     var menu = document.getElementById("navbar")
     if (menu.style.visibility === "hidden"){
         menu.style.opacity = "0"
-        menu.style.display = "block"
+        menu.style.display = "flex"
         menu.style.visibility = "visible";
         menu.style.transition = "1s"
         setTimeout(() => {

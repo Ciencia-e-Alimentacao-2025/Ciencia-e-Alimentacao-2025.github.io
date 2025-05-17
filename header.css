@@ -46,17 +46,11 @@ button{
   width: 100%; 
 }
   
-li{
-  list-style: none;
-  margin: 0px;
-  display: block;
-  margin: auto;
+.menuitem a{
   text-align: center;
-  padding: 10px;
 }
-  
 
-td.menuitem:hover{
+.menuitem:hover{
   transition: .5s;
   background-color: gray;
   border-radius: 5px;
@@ -100,7 +94,9 @@ header{
     transition: 1s;
 }  
  .menuitem{
-    display: block;
+    display: flex;
+    padding: 10px;
+    text-align: center;
 }
  #menubar{
     width: 100%;
@@ -119,14 +115,19 @@ header{
   display: block;
   transition: 1s;
 }
-  #menubar{
-      width: 100%;
-      display: inline-table;
-      color: white;
+#menubar{
+  width: 100%;
+  display: flex;
+  color: white;
   }
-  #menubar a{
-    color: white;
-  }
+#menubar a{
+  color: white;
+}
+.menuitem{
+  flex: auto;
+  text-align: center;
+  padding: 10px;
+}
   li{
     border: transparent;
   }
