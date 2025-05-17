@@ -148,6 +148,14 @@ span.content > .caller_img{
   margin-bottom: 0px;
 }
 
+.content h2{
+  text-align: center;
+}
+
+.content p{
+  text-align: center;
+}
+
 h2{
   margin-top: 0px;
   padding-top: 0px;
