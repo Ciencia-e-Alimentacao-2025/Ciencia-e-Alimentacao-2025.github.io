@@ -57,6 +57,9 @@ v0.3.9 - 05/05/2025
 v0.8.9 - 16/5/2025
 * Conteúdo adicionado
 
+v0.9.4 - 25/05/2025
+* Atualização com links de Instagram dos autores
+
 TODO:
 
 * Tradução em inglês???

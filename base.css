@@ -196,3 +196,7 @@ footer > p{
   vertical-align: middle;
 }
 
+h4 a{
+  text-decoration: underline;
+  color: inherit;
+}
