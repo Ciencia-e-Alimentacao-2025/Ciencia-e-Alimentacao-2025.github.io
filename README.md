@@ -60,7 +60,8 @@ v0.8.9 - 16/5/2025
 v0.9.4 - 25/05/2025
 * Atualização com links de Instagram dos autores
 
-TODO:
-
-* Tradução em inglês???
-* Revisar cabeçalho
+v1.0.0 - 14/6/2025
+* "Sabor da Fruta" adicionado
+* Atualização em Media Querys, Flexbox, Menu, Fontes, Cores, Rodapé, Cabeçalho
+* Novos conteúdos
+* Nova Página Inicial

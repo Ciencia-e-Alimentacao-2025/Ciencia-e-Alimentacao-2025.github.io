@@ -4,6 +4,9 @@
     .caller_img{
         width: 80vw;
     }
+    .content p{
+        width: unset;
+    }
 }
 
 @media only screen and (min-width: 321px) {
@@ -23,9 +26,60 @@
       }
 }
 
+@media only screen and (max-width:425px){
+    #large{
+        height: unset;
+    }
+    .first_image .lato-light{
+        font-size: 1.3em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner .lato-black{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 @media only screen and (min-width: 425px){
     .banner p{
-        font-size: 17px;
+        font-size: 17px;        
+    }
+    #large{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #post.first_image{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 591px){
+    #sucos.first_image{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 592px) and (max-width: 599px){
+    #sucos.first_image{
+        margin-top: 65px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 599px){
+    #post.first_image{
+        margin-top: 65px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #sucos.first_image{
+        margin-top: 100px
+    }
+    #post.first_image{
+        margin-top: 100px;
     }
 }
 
@@ -39,9 +93,10 @@
       .caller_img{
           width: 400px;
       }
-      span:hover .caller_img{
-          width: 440px;
-          transition: .5s;
+      .internal:hover .caller_img{
+        padding: 0px;
+        width: 440px;
+        transition: .5s;
       }
       .banner p{
         font-size: 20px;
@@ -53,7 +108,8 @@
     }
 
       a.internal p{
-        width: 60vw;
+        width: 400px;
+        padding: 20px;
         margin: auto;
       }
 }
@@ -65,15 +121,9 @@
 }
 
 @media only screen and (min-width: 1600px){
-    a.internal{
-        display: inline-block;
-        width: 33%;
-      }
-      a.internal p{
-        height: 200px;
-        margin: 0px;
-        width: unset;
-      }
+    a.internal p{
+        margin: auto;
+    }
 }
 
 @media only screen and (min-width: 2160px){

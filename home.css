@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.internal{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    height: 50vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+#cha{
+    background: linear-gradient(to bottom, rgba(0,0,0, 0), black), url(/assets/pexels-mareefe-1638280.jpg) no-repeat ;
+    background-size: cover; background-position: center;
+    transition: .5s;
+}
+
+#suco{
+    background: linear-gradient(to bottom, rgba(0,0,0, 0), black), url(/assets/pexels-suju-1233319\ \(1\).jpg) no-repeat ;
+    background-size: cover; background-position: center;
+}
+
+#cha:hover{
+    transition: .5s;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.459), black), url(/assets/pexels-mareefe-1638280.jpg) no-repeat center; 
+}
+
+#suco:hover{
+    transition: .5s;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.459), black), url(/assets/pexels-suju-1233319\ \(1\).jpg) no-repeat center; 
+}
+
+.internal .text{
+    margin-top: 28vh;
+    transition: .5s;
+}
+
+@media only screen and (min-width: 361px){
+    .internal .text{
+        margin-top: 35vh;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .internal .text{
+        margin-top: 40vh;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+    .internal .text{
+        margin-top: 42vh;
+    }
+}
