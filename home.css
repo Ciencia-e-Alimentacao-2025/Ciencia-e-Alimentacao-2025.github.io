@@ -35,32 +35,52 @@ body{
 #cha:hover{
     transition: .5s;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.459), black), url(/assets/pexels-mareefe-1638280.jpg) no-repeat center; 
+    background-size: cover;
 }
 
 #suco:hover{
     transition: .5s;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.459), black), url(/assets/pexels-suju-1233319\ \(1\).jpg) no-repeat center; 
+    background-size: cover;
 }
 
 .internal .text{
-    margin-top: 28vh;
+    margin-top: 15vh;
     transition: .5s;
 }
 
-@media only screen and (min-width: 361px){
+@media only screen and (min-height: 361px){
     .internal .text{
-        margin-top: 35vh;
+        margin-top: 20vh;
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-height: 420px){
+    .internal .text{
+        margin-top: 25vh;
+    }
+}
+
+@media only screen and (min-height: 530px){
+    .internal .text{
+        margin-top: 30vh;
+    }
+}
+
+@media only screen and (min-height: 768px){
     .internal .text{
         margin-top: 40vh;
     }
 }
 
-@media only screen and (min-width: 2560px){
+@media only screen and (min-height: 1150px){
     .internal .text{
         margin-top: 42vh;
+    }
+}
+
+@media only screen and (min-height: 1800px){
+    .internal .text{
+        margin-top: 45vh;
     }
 }
